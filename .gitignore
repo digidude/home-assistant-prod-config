@@ -1,0 +1,28 @@
+# Mac file system specific files
+.DS_Store
+# anything hidden
+.*
+!.gitignore
+# hass local hidden files
+._home-assistant.log
+._ui-lovelace.yaml
+.uuid
+*.txt
+*.log
+*.sqlite
+*.db
+
+secrets.yaml
+known_devices.yaml
+OZW_Log.txt
+tts/
+
+#zwave files
+OZW_Log.txt
+#stuff that really matters
+home-assistant_v2.db
+zigbee.db
+#nodered
+node-red/
+themes/
+deps/
